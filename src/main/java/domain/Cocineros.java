@@ -17,7 +17,7 @@ public class Cocineros extends Thread {
         for (int pedido : pedidos) {
            JOptionPane.showMessageDialog(null, "Cocinero Preparando: " + orden.nombrePlatillo(pedido));
            try {
-                Thread.sleep(700); //tiempo de preparación
+                Thread.sleep(2000); //tiempo de preparación
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
